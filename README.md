@@ -11,6 +11,12 @@ Methods available are:
 - ValidateAddressId (validate address id)
 - NearByAddresses (search for the nearest places)
 
+#Depencendy
+
+```
+npm install request
+```
+
 #Installing
 
 ```
