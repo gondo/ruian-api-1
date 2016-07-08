@@ -58,12 +58,15 @@ Call methods as async to receive response. As methodX you can choose one of foll
 
 Geocode(AddressPlaceId) { ... }
 Geocode(SearchText) { ... }
-Geocode(Street, HouseNumber, RecordNumber, OrientationNumber, OrientationNumberCharacter, ZIPCode, Locality, LocalityPart, DistrictNumber) { ... }  // you can fill only some
+Geocode(Street, HouseNumber, RecordNumber, OrientationNumber, OrientationNumberCharacter,
+  ZIPCode, Locality, LocalityPart, DistrictNumber) { ... }  // you can fill only some
 CompileAddress(AddressPlaceId) { ... }
 CompileAddress(SearchText) { ... }
-CompileAddress(Street, HouseNumber, RecordNumber, OrientationNumber, OrientationNumberCharacter, ZIPCode, Locality, LocalityPart, DistrictNumber) { ... }  // you can fill only some
+CompileAddress(Street, HouseNumber, RecordNumber, OrientationNumber, OrientationNumberCharacter,
+  ZIPCode, Locality, LocalityPart, DistrictNumber) { ... }  // you can fill only some
 FullTextSearch(SearchText) { ... }
-Validate (Street, HouseNumber, RecordNumber, OrientationNumber, OrientationNumberCharacter, ZIPCode, Locality, LocalityPart, DistrictNumber) { ... }
+Validate (Street, HouseNumber, RecordNumber, OrientationNumber, OrientationNumberCharacter,
+  ZIPCode, Locality, LocalityPart, DistrictNumber) { ... }
 ValidateAddressId (AddressPlaceId) { ... }
 NearByAddresses (JTSKY, JTSKX, Distance) // JTSK is Czech coordinate system (https://epsg.io/5514)
 
