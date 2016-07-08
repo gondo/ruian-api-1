@@ -19,20 +19,19 @@ npm install ruian-api
 
 ##Usage:
 
-```javascript
 
 
-#ruian-api
-
-##`var ruianapi = require('ruian-api');`
+`var ruianapi = require('ruian-api');`
 
 Create a `ruianapi` instance that can be used to make requests to RÚIAN's APIs.
 
-```
+
+```javascript
 
  // 'some address id'
 var AddressPlaceId = '26188511';
 
+// Fill address values to variables.
 // parametric search
 // 'some address parts'
 var Street,
@@ -48,11 +47,6 @@ var Street,
 // fulltext search
 // 'some address'
 var SearchText = 'Habrová 128 25066 Zdiby';
-```
-
-Fill address values to variables.
-
-```
 
 var currentAddress = ruianapi.methodX(params);
 
